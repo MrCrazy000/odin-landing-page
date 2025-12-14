@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #051024;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
