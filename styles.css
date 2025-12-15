@@ -1,20 +1,128 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    background-color: #051024;
+    background-color: #1f2937;
     color: white;
     align-items: center;
     justify-content: space-between;
     padding: 24px;
 }
 
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 24px 100px 24px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
-    gap: 8px;
+    gap: 24px;
+}
+
+.hero-headline {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    display: flex;
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.photo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-heading {
+    font-size: 36px;
+    padding-top: 30px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.photo img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    border: #3882f6 solid 5px;
+    border-radius: 5px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.photo {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #808080;
+}
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #E5E7EB;
+    padding: 100px;
+    gap: 30px
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    margin-left: 250px;
 }
